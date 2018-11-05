@@ -1,0 +1,35 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: foodtruck-srv-prd
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: foodtruck-srv-prd
+    spec:
+      containers:
+      - name: foodtruck-srv-prd
+        image: willx2cr.azurecr.io/foodtruck/foodtruck-img-prd:0.0.1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 443
+      imagePullSecrets:
+      - name: willx2cr
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: foodtruck-srv-prd
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 443
+  selector:
+    app: foodtruck-srv-prd

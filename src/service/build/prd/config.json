@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "debug": 1,
+    "token": "87721cbd5f1b480d8e0b446859cc67ee-e54edce1-43d9-4e15-8199-24c9a3a5748d-6996",
+    "databaseFile": "truck.db"
+}
