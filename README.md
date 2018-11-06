@@ -4,7 +4,7 @@ by William Mortl
 
 This is my submission for the take home coding challenge. 
 
-I created a Dockerized service using Python, Green Unicorn, NGinX, and SQLite. Additionally, I included a Python command line client, a Windows application client, and included Postman queries for the querying the service.
+I created a Dockerized service using Python, Green Unicorn, NGinX, and SQLite. Additionally, I included a Python command line client, a Windows application client, and even included Postman queries for testing the service. I also included telemetry for the service by way of using Microsoft Aria.
 
 For more design documentation please visit the [Architecture](doc/Architecture.md) page.
 
@@ -16,13 +16,13 @@ Directions for dockerizing the service can be found on the [Build the Service](d
 
 Below are the details for how the folders are arranged:
 
-* **root directory** - contains basic files for the challenge
+* **root directory** - contains the basic files for the challenge
 * **client** - contains the 3 clients:
     1. **cmd** - a Python based command line client
     2. **postman** - postman queries for the service
     3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls before calling the food truck service
-* **db** - code for generating the SQLite database used by the service
-* **service** - the actual Python based food truck service
+* **db** - code for generating the SQLite database that is used by the service
+* **service** - Python 3 code for the food truck service (also includes Docker build files)
 
 # Take Home Engineering Challenge
 
