@@ -20,7 +20,7 @@ Below are the details for how the folders are arranged:
 * **client** - contains the 3 clients:
     1. **cmd** - a Python based command line client
     2. **postman** - postman queries for the service
-    3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls
+    3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls before calling the food truck service
 * **db** - code for generating the SQLite database used by the service
 * **service** - the actual Python based food truck service
 
