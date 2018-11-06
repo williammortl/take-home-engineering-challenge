@@ -44,8 +44,6 @@ def handlePing():
 def handleGeoQuery():
     return _gqrp.processIncomingRequest(request.json)
 
-#
 # Server startup
-#
 if __name__ == "__main__":
     app.run(host = '127.0.0.1', port = _config["port"])

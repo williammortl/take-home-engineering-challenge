@@ -15,6 +15,7 @@ import time
 # constants
 DEFAULT_LOCATION = "general"
 
+# this class is used to send telemetry to aria.ms
 class FoodtruckServiceLogger:
     debug = 0
     token = ""

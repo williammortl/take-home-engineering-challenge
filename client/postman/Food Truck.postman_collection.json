@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "0bcc0363-ed1b-4274-ba3e-daed6ffa29be",
+		"name": "Food Truck",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ping",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "abb378be-2863-49ee-9081-d67496f8220c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://192.168.1.210/Ping",
+					"protocol": "https",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"210"
+					],
+					"path": [
+						"Ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GeoQuery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "abb378be-2863-49ee-9081-d67496f8220c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Latitude\": 37.80241,\r\n\t\"Longitude\": -122.4059\r\n}"
+				},
+				"url": {
+					"raw": "https://192.168.1.210/GeoQuery",
+					"protocol": "https",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"210"
+					],
+					"path": [
+						"GeoQuery"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
