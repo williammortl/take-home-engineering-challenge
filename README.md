@@ -8,7 +8,7 @@ I created a Dockerized service using Python, Green Unicorn, NGinX, and SQLite. A
 
 For more design documentation please visit the [Architecture](doc/Architecture.md) page.
 
-Enhancements can be found on the [Enhancements](doc/Enhancements.md) page.
+Future improvements can be found on the [Future Enhancements](doc/FutureEnhancements.md) page.
 
 Directions for dockerizing the service can be found on the [Build the Service](doc/BuildService.md) page.
 
