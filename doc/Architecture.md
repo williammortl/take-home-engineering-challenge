@@ -4,13 +4,13 @@
 
 As stated earlier, the service is a Python 3 based Flask service which utilizes:
 
-    * **SQLite** for data storage and retrieval
-    * **Green Unicron** as a prodcution ready application server
-    * **NGinX** for reverse-proxy services including SSL and api key verification
-    * **supervisord** for ensuring the services stay running
-    * **Docker** for containerization
-    * **unittest** for unit tests for the service
-    * **Aria** for real-time telemetry
+* **SQLite** for data storage and retrieval
+* **Green Unicron** as a prodcution ready application server
+* **NGinX** for reverse-proxy services including SSL and api key verification
+* **supervisord** for ensuring the services stay running
+* **Docker** for containerization
+* **unittest** for unit tests for the service
+* **Aria** for real-time telemetry
 
 A simple unit test was implemented and executes during dockerization, it is fails, all of dockerization will fail.
 
