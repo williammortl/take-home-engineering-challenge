@@ -8,7 +8,7 @@ To run the service from the command line using **Flask**, simply copy the **conf
 
 To run the docker image, simply execute the following shell scripts in order:
 
-    1. ./prddockerize.sh _{version number}_
-    2. ./runprd.sh _{version number}_
+    1. ./prddockerize.sh _version number}
+    2. ./runprd.sh {version number}
 
 After that, the docker image should start up.

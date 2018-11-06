@@ -16,13 +16,13 @@ Directions for dockerizing the service can be found on the [Build the Service](d
 
 Below are the details for how the folders are arranged:
 
-* **root directory** - contains the basic files for the challenge
-* **client** - contains the 3 clients:
-    1. **cmd** - a Python based command line client
-    2. **postman** - postman queries for the service
-    3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls before calling the food truck service
-* **db** - code for generating the SQLite database that is used by the service
-* **service** - Python 3 code for the food truck service (also includes Docker build files)
+    * **root directory** - contains the basic files for the challenge
+    * **client** - contains the 3 clients:
+        1. **cmd** - a Python based command line client
+        2. **postman** - postman queries for the service
+        3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls before calling the food truck service
+    * **db** - code for generating the SQLite database that is used by the service
+    * **service** - Python 3 code for the food truck service (also includes Docker build files)
 
 # Take Home Engineering Challenge
 
