@@ -8,6 +8,18 @@ I created a Dockerized service using Python, Green Unicorn, NGinX, and SQLite. A
 
 For more design documentation please visit the [Architecture](doc/Architecture.md) page.
 
+# Folder Structure
+
+Below are the details for how the folders are arranged:
+
+* **root directory** - contains basic files for the challenge
+* **client** - contains the 3 clients:
+1. **cmd** - a Python based command line client
+2. **postman** - postman queries for the service
+3. **win** - a Windows application client that resolves addresses to lat/long by way of Google API calls
+* **db** - code for generating the SQLite database used by the service
+* **service** - the actual Python based food truck service
+
 # Take Home Engineering Challenge
 
 We are a very practical team at Microsoft and this extends to the way that we work with you to find out if this team is a great fit for you. We want you to come away with a great understanding of the work that we actually do day to day and what it is like to work with us.
