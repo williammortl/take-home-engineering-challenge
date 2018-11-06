@@ -26,7 +26,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://192.168.1.210/Ping",
+					"raw": "http://127.0.0.1:5000/Ping",
 					"protocol": "https",
 					"host": [
 						"192",
@@ -62,7 +62,7 @@
 					"raw": "{\r\n\t\"Latitude\": 37.80241,\r\n\t\"Longitude\": -122.4059\r\n}"
 				},
 				"url": {
-					"raw": "https://192.168.1.210/GeoQuery",
+					"raw": "http://127.0.0.1:5000/GeoQuery",
 					"protocol": "https",
 					"host": [
 						"192",

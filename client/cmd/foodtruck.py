@@ -8,13 +8,15 @@ import requests
 import sys
 import warnings
 
-URL = "https://127.0.0.1/GeoQuery"
+URL = "http://127.0.0.1:5000/GeoQuery"
 XAPIKEY = "abb378be-2863-49ee-9081-d67496f8220c"
 
 def printTruck(truck):
     print("Name: %s" % truck["Name"])
     print("Address: %s" % truck["Address"])
     print("Hours: %s" % truck["Hours"])
+    print("Latitude: %s" % truck["Latitude"])
+    print("Longitude: %s" % truck["Longitude"])
     print("Menu:\n  %s" % truck["Menu"])
     print("")
 
@@ -32,6 +34,7 @@ def queryServer(latitude, longitude, url = URL, xApiKey = XAPIKEY):
 def printUsage():
     print("Usage: python3 foodtruck.py {lat} {long} {optional: URL} {optional: XApiKey}")
     print("Example: python3 foodtruck.py 37.80241 -122.4059")
+    print("Default URL and XApiKey are localhost and the testing api key")
 
 if __name__ == "__main__":
     warnings.simplefilter("ignore")
