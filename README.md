@@ -6,7 +6,7 @@ This is my submission for the take home coding challenge.
 
 I created a Dockerized service using Python, Green Unicorn, NGinX, and SQLite. Additionally, I included a Python command line client, a Windows application client, and included Postman queries for the querying the service.
 
-For more design documentation please visit the [Architecture](doc/Architecure.md) page.
+For more design documentation please visit the [Architecture](doc/Architecture.md) page.
 
 # Take Home Engineering Challenge
 
